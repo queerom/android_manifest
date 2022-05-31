@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>  
+	<remote name="gh"
+		fetch="https://github.com"
+	/>
+	<remote name="gl"
+			fetch="https://gitlab.com"
+	/>
+
+	<!-- Queerom -->
+	<remove-project name="android_system_core" />
+	<project path="system/core" name="ProtonAOSP/android_system_core" remote="gh" revision="sc-v2" />
+	<project path="vendor/q" name="queerom/android_vendor_q" remote="gh" revision="12.1" />
+	<project path="vendor/gms" name="queerom/android_vendor_gapps" remote="gl" revision="qe-12.1" />
+	<project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="gh" revision="main" />
+	<project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="gh" revision="sc-v2" />
+
+</manifest>
