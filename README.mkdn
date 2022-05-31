@@ -4,7 +4,7 @@ Q
 Getting started
 ---------------
 
-To get started with Android/, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with Android you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 To initialize your local repository using the queerom trees, use a command like this:
 ```
